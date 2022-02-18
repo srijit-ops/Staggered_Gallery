@@ -1,4 +1,5 @@
 let images= document.querySelectorAll(".image")
+ 
         images.forEach(image=>{
             image.addEventListener("mouseenter",()=>{
                 for(let node of images){

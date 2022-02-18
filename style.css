@@ -3,6 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+.heading{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.heading h1{
+    font-size: 35px;
+    color: gold;
+    font-family: 'poppins';
+    letter-spacing: 1px;
+    font-weight: 700;
+    text-align: center;
+}
 .gallery{
     display: flex;
     flex-direction: row;
@@ -61,11 +73,15 @@
     }
 }
 @media(max-width:768px){
+    .heading h1{
+        font-size: 30px;
+    }
     .img-detail h2{
         font-size: 13px;
     }
 }
 @media (max-width:630px){
+    
     .gallery{
         flex-wrap: wrap;
         justify-content: center;
@@ -81,6 +97,9 @@
     }
 }
 @media (max-width:481px){
+    .heading h1{
+        font-size: 26px;
+    }
     .img-detail{
         top: 87%;
     }
